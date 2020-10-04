@@ -49,4 +49,4 @@
 </script>
 ```
 
-5. Edit list and make your own CSS selectors and properties (Отредактируйте список, создайтесвои CSS-селекторы и свойства).
+5. Edit list and make your own CSS selectors and properties (Отредактируйте список, создайте свои CSS-селекторы и свойства).
