@@ -42,11 +42,11 @@ gulp.task('code', () => {
 
 gulp.task('scripts', () => {
     return gulp.src([
-        'app/importJS/main.js',
-        //'app/importJS/second.js'
+        'app/importJS/_class/_Accordion.js',
+        'app/importJS/main.js'
     ])
         .pipe(sourceMaps.init())
-        .pipe(concat('js.min.js'))
+        .pipe(concat('accordion0.min.js'))
         // .pipe(babel({
         //     presets: ['@babel/env']
         // }))
