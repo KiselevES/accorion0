@@ -46,13 +46,13 @@ gulp.task('scripts', () => {
         'app/importJS/main.js'
     ])
         .pipe(sourceMaps.init())
-        .pipe(concat('accordion0.min.js'))
+        .pipe(concat('js.min.js'))
         // .pipe(babel({
         //     presets: ['@babel/env']
         // }))
         // .pipe(uglify())
         .pipe(sourceMaps.write())
-        .pipe(gulp.dest('app/js'))
+        .pipe(gulp.dest('app/js/'))
         .pipe(browserSync.reload({stream: true}))
 });
 

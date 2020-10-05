@@ -1,8 +1,8 @@
 class Accordion0 {
-    constructor(accordionID, params) {
+    constructor(accordionID, params) { 
         this.accordion = document.getElementById(accordionID);
         for (let i = 0; i < this.accordion.children.length; i++) {
-            this.accordion.children[i].children[0].classList.add(accordionID + '__list-item-link');
+            this.accordion.children[i].children[0].classList.add(accordionID + '__list-item-link'); 
             this.accordion.children[i].children[1].classList.add(accordionID + '__step2-list');
         }
 
@@ -19,7 +19,7 @@ class Accordion0 {
             if (params && params.transitionTimingFunction) {
                 listCSS[i].style.transitionTimingFunction = params.transitionTimingFunction;
             } else {
-                listCSS[i].style.transitionTimingFunction = 'ease-in-out';
+                listCSS[i].style.transitionTimingFunction = 'ease-in-out'; 
             }
         }
         this.go(accordionID);
